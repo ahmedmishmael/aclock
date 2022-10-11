@@ -5,12 +5,12 @@ const clock = () => {
   let seconds = today.getSeconds();
   let shift = `AM`;
 
-  if (hours < 10) {
-    hours = `0${hours}`;
-  } else if (hours > 12) {
-    shift = `PM`;
-    hours = `0${hours - 12}`;
-  }
+  // if (hours < 10) {
+  //   hours = `0${hours}`;
+  // } else if (hours > 12) {
+  //   shift = `PM`;
+  //   hours = `0${hours - 12}`;
+  // }
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
