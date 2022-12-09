@@ -4,7 +4,13 @@ body {
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
-
+#logo {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  margin-top: 50px;
+  color: silver;
+}
 #clock {
   position: absolute;
   top: 50%;
